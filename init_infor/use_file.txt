@@ -1,0 +1,8 @@
+init_infor文件夹下功能为对学生系统和课程系统的初始化
+学生系统初始化：从文件初始化为file_stu_init.c，从键盘初始化为keyboard_stu_init.c
+课程系统初始化：从文件初始化为file_stu_init.c，从键盘初始化为keyboard_cou_init.c
+makefile 将当前目录下的所有.c文件编译成目标文件.o,将所有.o文件建立成一个静态库并移动到/home/cl/myproject/release下
+
+
+student.txt用于学生系统文件初始化、读入，和修改后的存放
+course.txt用于课程系统文件初始化、读入，和修改后的存放

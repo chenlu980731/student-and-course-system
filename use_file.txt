@@ -1,0 +1,11 @@
+myproject下
+include文件夹下用于函数的声明、结构体的定义等
+init_infor文件夹下是对学生系统和课程系统的初始化操作
+moudle_student文件夹下是对学生系统的一些操作
+moudle_course文件夹下是对课程系统的一些操作
+release文件夹下存放了所有的静态库
+
+makefile文件对需要操作的3个目录进行make的执行，编译main.c文件，通过release中的静态库进行链接，最后生成main可执行文件
+operation.log是记录对学生、课程系统操作时的日志
+my.sh是对operation.log日志的分析（对学生的修改的记录数等）
+

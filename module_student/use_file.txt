@@ -1,0 +1,8 @@
+module_student文件夹下功能为对学生系统进行查找、添加、更改、删除。
+学生系统查找学生信息：searchstudent.c
+学生系统添加学生信息：addstudent.c
+学生系统更改学生信息：changestudent.c
+学生系统删除学生信息：deletestudent.c
+
+makefile 将当前目录下的所有.c文件编译成目标文件.o,将所有.o文件建立成一个静态库并移动到/home/cl/myproject/release下
+

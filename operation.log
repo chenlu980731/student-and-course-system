@@ -1,0 +1,5 @@
+add student 4 xhy math chinese 5.0  
+change student 2
+delete student 4
+add course 5 art xml 6.0 1.0 13 17  
+change course 4

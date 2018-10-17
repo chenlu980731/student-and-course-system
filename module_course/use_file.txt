@@ -1,0 +1,8 @@
+module_course文件夹下功能为对课程系统进行查找、添加、更改、删除。
+课程系统查找课程信息：searchcourse.c
+课程系统添加课程信息：addcourse.c
+课程系统更改课程信息：changecourse.c
+课程系统删除课程信息：deletecourse.c
+
+makefile 将当前目录下的所有.c文件编译成目标文件.o,将所有.o文件建立成一个静态库并移动到/home/cl/myproject/release下
+
